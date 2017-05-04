@@ -15,7 +15,8 @@ RUN apt-get install -y xsltproc
 RUN cd /opt/kyotocabinet && ./configure –enable-zlib –enable-lzo –enable-lzma && make && make install
 
 # install raptor2
-RUN apt-get install -y raptor2-utils
+# RUN apt-get install -y raptor2-utils
+RUN apt-get install -y libraptor2-dev
 
 #install rasqal
 RUN apt-get install -y rasqal-utils
