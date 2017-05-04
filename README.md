@@ -3,6 +3,7 @@ Some tools to work with ontologies: rdf2hdt, hdt2rdf, raptor (rapper), xsltproc.
 
 ## Available utils:  
 [HDT Tools:](https://github.com/rdfhdt/hdt-cpp "HDT Tools")  
+
     - rdf2hdt  
     - hdt2rdf  
     - hdtSearch  
