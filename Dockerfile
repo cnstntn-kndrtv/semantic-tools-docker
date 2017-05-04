@@ -9,13 +9,16 @@ RUN apt-get update
 # Install kyoto cabinet
 RUN apt-get -y install liblzo2-dev liblzma-dev zlib1g-dev build-essential
 
-# Changes - Install xsltproc
+# Install xsltproc
 RUN apt-get install -y xsltproc
 
 RUN cd /opt/kyotocabinet && ./configure –enable-zlib –enable-lzo –enable-lzma && make && make install
 
 # install raptor2
-RUN apt-get install -y libraptor2-dev
+RUN apt-get install -y raptor2-utils
+
+#install rasqal
+RUN apt-get install -y rasqal-utils
 
 # Install Serd
 RUN apt-get install -y libserd-dev
