@@ -4,9 +4,9 @@ Some tools to work with ontologies: rdf2hdt, hdt2rdf, raptor (rapper), xsltproc.
 ## Available utils:  
 [HDT Tools:](https://github.com/rdfhdt/hdt-cpp "HDT Tools")  
 
-    - rdf2hdt  
-    - hdt2rdf  
-    - hdtSearch  
+- rdf2hdt  
+- hdt2rdf  
+- hdtSearch  
 
 [Raptor (rapper)](http://librdf.org/raptor/rapper.html "rapper"). C library that provides a set of parsers and serializers that generate Resource Description Framework (RDF) triples by parsing syntaxes or serialize the triples into a syntax. The supported parsing syntaxes are RDF/XML, N-Quads, N-Triples 1.0 and 1.1, TRiG, Turtle 2008 and 2013, RDFa 1.0 and 1.1, RSS tag soup including all versions of RSS, Atom 1.0 and 0.3, GRDDL and microformats for HTML, XHTML and XML. The serializing syntaxes are RDF/XML (regular, abbreviated, XMP), Turtle 2013, N-Quads, N-Triples 1.1, Atom 1.0, RSS 1.0, GraphViz DOT, HTML, JSON and mKR.
     
