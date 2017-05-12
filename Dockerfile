@@ -23,6 +23,7 @@ RUN apt-get install -y rasqal-utils
 
 # Install Serd
 RUN apt-get install -y libserd-dev
+RUN apt-get install -y serdi
 
 # Enable optional dependencies in Makefile
 RUN cd /opt/hdt/hdt-lib && sed -i "s/#KYOTO_SUPPORT=true/KYOTO_SUPPORT=true/" Makefile
