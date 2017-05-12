@@ -24,13 +24,13 @@ Some tools to work with ontologies: rdf2hdt, hdt2rdf, raptor (rapper), xsltproc.
 
 Pull Docker image  
 
-    docker pull cnstntnkndrtv/sem2ls  
+    docker pull cnstntn/sem2ls  
 
 Help  
 
-    docker run -it --rm cnstntnkndrtv/sem2ls rdf2hdt -h
+    docker run -it --rm cnstntn/sem2ls rdf2hdt -h
 
 Example  
 
-    $ docker run -it --rm -v "$(pwd)":/data cnstntnkndrtv/sem2ls rdf2hdt -f turtle /data/myfile.turtle /data/myfile.hdt
+    docker run -it --rm -v "$(pwd)":/data cnstntn/sem2ls rdf2hdt -f turtle /data/myfile.turtle /data/myfile.hdt
 
