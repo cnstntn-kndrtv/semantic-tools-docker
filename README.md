@@ -34,3 +34,6 @@ Example
 
     docker run -it --rm -v "$(pwd)":/data cnstntn/sem2ls rdf2hdt -f turtle /data/myfile.turtle /data/myfile.hdt
 
+Roqet example
+    echo $(docker run -it --rm -v "$(pwd)":/data cnstntn/sem2ls roqet -i sparql -e 'SELECT * WHERE { ?s ?p ?o }' -D /data/source.owl -F rdfxml -r table) > res.txt
+
